@@ -6,7 +6,7 @@
   --header-height: 2rem;
 
   /*=================colors=================*/
-  /* change favourite color */
+  /* this can change colors */
   --hue-color: 350;
 
   /* hsl color mode */
@@ -271,12 +271,13 @@ img {
 }
 /*==============home=================*/
 .home_container{
-  gap: 1rem;
+  grid-template-columns: 1fr;
+  gap: 0.5rem;
 }
 
 .home_content{
   grid-template-columns: .5fr 3fr;
-  padding-top: 3.5rem;
+  padding-top: 1rem;
   align-items: center;
 }
 
@@ -284,6 +285,7 @@ img {
   display: grid;
   grid-template-columns: max-content;
   row-gap: 1rem;
+  
 }
 
 .home_social-icon{
@@ -513,22 +515,14 @@ img {
 }
 
 .skills_js{
-  width: 60%;
+  width: 50%;
 }
 
 .skills_react{
-  width: 50%;
+  width: 30%;
 }
 
-.skills_php{
-  width: 50%;
-}
-
-.skills_node{
-  width: 40%;
-}
-
-.skills_firebase{
+.skills_svelte{
   width: 40%;
 }
 
@@ -536,16 +530,33 @@ img {
   width: 50%;
 }
 
-.skills_figma{
-  width: 80%;
+.skills_flask{
+  width: 40%;
 }
 
-.skills_sketch{
-  width: 60%;
+.skills_django{
+  width: 30%;
+}
+
+.skills_node{
+  width: 40%;
+}
+
+.skills_sql{
+  width: 40%;
+}
+
+
+.skills_figma{
+  width: 50%;
+}
+
+.skills_adobe{
+  width: 40%;
 }
 
 .skills_photoshop{
-  width: 60%;
+  width: 30%;
 }
 
 .skills_close .skills_list{
